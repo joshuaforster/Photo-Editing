@@ -161,7 +161,7 @@ export default function Pricing() {
                     <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.priceMonthly[selectedLocation]}</span>
                     <span className="text-sm font-semibold leading-6 text-gray-600">/Per Image</span>
                   </p>
-                  <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
+                  <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
                     {tier.features.map((feature) => (
                       <li key={feature} className="flex gap-x-3">
                         <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-indigo-600" />

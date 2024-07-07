@@ -49,7 +49,7 @@ const Services: React.FC<ServicesProps> = ({ title, description, price, buttonTe
               key={index}
               className="w-full h-full object-cover object-top lg:object-center"
               src={image}
-              alt={`Service Image ${index + 1}`}
+              alt='Lukes images'
             />
           ))}
         </div>

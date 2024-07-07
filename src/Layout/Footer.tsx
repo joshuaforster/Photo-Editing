@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useTheme } from '../CustomComponents/darkmode';
+
 
 export default function Footer() {
   const navigationLinks = [
@@ -16,7 +16,6 @@ export default function Footer() {
     { name: "Terms & Conditions", path: "/terms-conditions" }
   ];
 
-  const { theme } = useTheme();
 
   const currentYear = new Date().getFullYear();
 

@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
             From basic cleanups to full art edits, we offer a range of services to enhance and transform your photos and artwork
           </p>
           <a
-              href="#"
+              href="google.com"
               className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
             >
               Get started
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="google.com"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-orange-500 border bg-white border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
             >
               Speak to Sales
